@@ -5,7 +5,7 @@ Lista de cursos Java :
 
 Java JRE e JDK: compile e execute o seu programa (Concluído)
 
-Java OO: entendendo a Orientação a Objetos
+Java OO: entendendo a Orientação a Objetos (Concluído)
 
 Java Polimorfismo: entenda herança e interfaces
 
