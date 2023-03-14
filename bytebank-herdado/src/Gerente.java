@@ -1,5 +1,5 @@
+// Gerente é um funcionário, gerente herda da class Funcionario
 public class Gerente extends Funcionario {
-   // Gerente é um funcionário, gerente herda da class Funcionario
     private int senha;
 
     public void setSenha(int senha) {
@@ -16,7 +16,7 @@ public class Gerente extends Funcionario {
 
    public double getBonificacao(){
        System.out.println("Chamando o método de bonificação do Gerente");
-        return super.getBonificacao() + super.getSalario();
+        return super.getSalario();
     }
 
 }
