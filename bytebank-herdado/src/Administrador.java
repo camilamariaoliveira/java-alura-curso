@@ -1,15 +1,13 @@
-// Gerente é um funcionário, assima o "contrato" Autenticavel
-public class Gerente extends Funcionario implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
 
     private AutenticacaoUtil autenticador;
-
-    public Gerente() {
+    public Administrador() {
         this.autenticador = new AutenticacaoUtil();
     }
 
-   public double getBonificacao(){
-       System.out.println("Chamando o método de bonificação do Gerente");
-        return super.getSalario();
+    @Override
+    public double getBonificacao() {
+        return 50;
     }
 
     @Override
