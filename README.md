@@ -5,19 +5,20 @@ Lista de cursos Java :
 
 Java JRE e JDK: compile e execute o seu programa (Concluído)
   1. O que é Java?
-  2. Instalação e o primeiro programa 3. Começando com Eclipse
+  2. Instalação e o primeiro programa 
+  3. Começando com Eclipse
   4. Tipos e variáveis
   5. Trabalhando com caracteres
   6. Praticando condicionais
   7. Controlando fluxo com laços
 
 Java OO: entendendo a Orientação a Objetos (Concluído)
-  1. O que é Java?
-  2. Instalação e o primeiro programa 3. Começando com Eclipse
-  4. Tipos e variáveis
-  5. Trabalhando com caracteres
-  6. Praticando condicionais
-  7. Controlando fluxo com laços
+  1. O problema do paradigma procedural 
+  2. Vamos lá: Orientação a Objetos
+  3. Definindo comportamento
+  4. Composição de objetos
+  5. Encapsulamento e visibilidade
+  6. Construtores e membros estáticos
 
 Java Polimorfismo: entenda herança e interfaces (Concluído)
   1. Introdução a herança
