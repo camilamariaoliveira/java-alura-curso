@@ -8,6 +8,14 @@ public abstract class Conta {
 
 
     public Conta(int agencia, int numero){
+        // Mais um exemplo de uma exceção para uma conta com uma agência que possui valor negativo, não seja aceita
+        if(agencia < 1) {
+            throw new IllegalArgumentException("Agencia inválida");
+        }
+
+        if(numero < 1) {
+            throw new IllegalArgumentException("Numero da conta inválido");
+        }
         Conta.total++;
         //System.out.println("O total de contas é " + Conta.total);
         this.agencia = agencia;
